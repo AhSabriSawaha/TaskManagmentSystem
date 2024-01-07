@@ -1,0 +1,35 @@
+<?php
+return [
+    'required' => 'حقل :attribute مطلوب.',
+    'min' => [
+        'string' => ':attribute يجب أن يكون على الأقل :min حروف.',
+        'file' => ':attribute يجب أن يكون على الأقل :min كيلوبايت.',
+        'numeric' => ':attribute يجب أن يكون :min على الأقل.',
+        'array' => ':attribute يجب أن يحتوي على الأقل :min عناصر.',
+    ],
+    'max' => [
+        'string' => ':attribute قد لا يكون أكبر من :max حروف.',
+        'file' => ':attribute قد لا يكون أكبر من :max كيلوبايت.',
+        'numeric' => ':attribute قد لا يكون أكبر من :max.',
+        'array' => ':attribute قد لا يكون أكثر من :max عناصر.',
+    ],
+    'string' => ':attribute يجب أن يكون حروفاً.',
+    'date' => ':attribute ليس تاريخًا صحيحًا.',
+    'exists' => ':attribute المختار غير صالح.',
+    'unique' => ':attribute تم أخذه بالفعل.',
+    'not_in' => ':attribute المختار غير صالح.',
+    'different' => ':attribute و :other يجب أن يكونا مختلفين.',
+    'email_required' => 'حقل البريد الإلكتروني مطلوب.',
+    'email_email' => 'يجب أن يكون البريد الإلكتروني عنوانًا صالحًا.',
+    'email_unique' => 'تم أخذ البريد الإلكتروني بالفعل.',
+    'first_name_required' => 'حقل الاسم الأول مطلوب.',
+    'first_name_min' => 'يجب ألا يقل الاسم الأول عن 2 حروف.',
+    'title_required' => 'حقل العنوان مطلوب.',
+    'title_min' => 'يجب ألا يقل العنوان عن 2 حروف.',
+    'title_max' => 'يجب ألا يزيد العنوان عن 20 حرفًا.',
+    'name_required' => 'حقل الاسم مطلوب.',
+    'name_min' => 'يجب ألا يقل الاسم عن 2 حروف.',
+    'name_max' => 'يجب ألا يزيد الاسم عن 20 حرفًا.',
+    'old_password_incorrect' => 'كلمة المرور القديمة غير صحيحة.',
+
+];

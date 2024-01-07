@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'required' => 'The :attribute field is required.',
+    'min' => [
+        'string' => 'The :attribute must be at least :min characters.',
+        'file' => 'The :attribute must be at least :min kilobytes.',
+        'numeric' => 'The :attribute must be at least :min.',
+        'array' => 'The :attribute must have at least :min items.',
+    ],
+    'max' => [
+        'string' => 'The :attribute may not be greater than :max characters.',
+        'file' => 'The :attribute may not be greater than :max kilobytes.',
+        'numeric' => 'The :attribute may not be greater than :max.',
+        'array' => 'The :attribute may not have more than :max items.',
+    ],
+    'string' => 'The :attribute must be a string.',
+    'date' => 'The :attribute is not a valid date.',
+    'exists' => 'The selected :attribute is invalid.',
+    'unique' => 'The :attribute has already been taken.',
+    'not_in' => 'The selected :attribute is invalid.',
+    'different' => 'The :attribute and :other must be different.',
+    'email_required' => 'The email field is required.',
+    'email_email' => 'The email must be a valid email address.',
+    'email_unique' => 'The email has already been taken.',
+    'first_name_required' => 'The first name field is required.',
+    'first_name_min' => 'The first name must be at least 2 characters.',
+    'title_required' => 'The title field is required.',
+    'title_min' => 'The title must be at least 2 characters.',
+    'title_max' => 'The title may not be more than 20 characters.',
+    'name_required' => 'The name field is required.',
+    'name_min' => 'The name must be at least 2 characters.',
+    'name_max' => 'The name may not be more than 20 characters.',
+    'old_password_incorrect' => 'The old password is incorrect.',
+];

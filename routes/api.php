@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Modules\TaskManagmentSystem\app\Http\Controllers\Admin\CommentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// Route::get('/comment', [CommentController::class, 'index']);    test
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });

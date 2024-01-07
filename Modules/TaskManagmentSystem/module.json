@@ -1,0 +1,11 @@
+{
+    "name": "TaskManagmentSystem",
+    "alias": "taskmanagmentsystem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TaskManagmentSystem\\app\\Providers\\TaskManagmentSystemServiceProvider"
+    ],
+    "files": []
+}
